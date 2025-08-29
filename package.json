@@ -1,0 +1,22 @@
+{
+  "name": "trading-agent-node-pro-v17",
+  "version": "1.0.0",
+  "description": "Trading AI Agent Bot with Multi-TF + Indicators + Telegram + MySQL + Bybit/OKX/Binance adapters",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "mysql2": "^3.9.2",
+    "telegraf": "^4.12.2",
+    "ws": "^8.16.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "author": "YourName",
+  "license": "MIT"
+}
